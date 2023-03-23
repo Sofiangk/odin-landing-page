@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif , sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 18px;
+    background-color: #f9faf8;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.poster {
+    border: 3px solid #1f2937;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.poster img {
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+#header-img {
+    width: 10vw;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.container {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+}
+
+#manga section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    align-content: center;
+}
+
+#manga {
+    transition: 2000ms ease;
+}
+
+#manga h1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    padding: 0 auto;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px #1f2937 solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+header > ul {
+    width: 100%;
+    font-weight: 400;
+    position: fixed;
+    top: 0;
+    height: fit-content;
+    padding: 5px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+ul div {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div > li:hover {
+    text-decoration-line: underline;
+}
+
+#hero input[type='submit'] {
+    width: 250px;
+    height: 50px;
+    border: 0;
+    background-color: #f9faf8;
+    margin-top: 18px;
+}
+
+#hero > h2 {
+    padding-bottom: 35px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 80vh;
+    padding: 240px 0 100px 100px;
+    margin-bottom: 25vh;
+    background: #1f2937;
+}  
+
+#hero > iframe {
+    max-width: 560px;
+    width: 100%;
+    border-radius: 5px;
+    height: 360px;
+    object-fit: cover;
+}
+
+#story p {
+    font-size: 18px;
+    line-height: 1.75;
+    margin: 0 10px;
+    color: #f9faf8;
+}
+
+#story {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: space-between;
+}
+
+#story h1 {
+    text-align: center;
+}
+
+div h3, div p {
+    margin-bottom: 15px;
+}
+
+#quote {
+    width: 100%;
+    height: 60vh;
+    background-color: #e5e7eb;
+    color: #1f2739;
+    font-style: italic;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#quote p {
+    font-size: 36px;
+    font-weight: 200;
+    margin: 0 20%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#quote span {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    align-self: flex-end;
+    margin-top: 25px;
+    margin-right: 80px;
+}
+
+footer {
+    height: 10vh;
+    font-size: 18px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+#contact section {
+    background-color: #3882f6;
+    width: 1400px;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 10%;
+}
+
+#contact p {
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    margin-left: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #3882f6;
+    background-color: #f9faf8;
+}
